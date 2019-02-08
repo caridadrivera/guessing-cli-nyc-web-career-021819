@@ -5,12 +5,9 @@ def run_guessing_game
   number = rand(1..6)
 
 while input !- "exit" do
-  if input == number
+  if input.to_i == number
   puts "You guessed the correct number!"
-else computer guessed <number>.
-  end
-  if input == "exit"
-    input = nil
+else "computer guessed <number>."
   end
   end
 end
