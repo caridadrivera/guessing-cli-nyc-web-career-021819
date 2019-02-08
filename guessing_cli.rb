@@ -8,4 +8,5 @@ else computer guessed <number>.
   if input == "exit"
     input = nil
   end
+  end
 end
