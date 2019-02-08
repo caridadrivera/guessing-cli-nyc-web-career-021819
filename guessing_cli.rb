@@ -5,5 +5,5 @@ if input == number
   puts "You guessed the correct number!"
 else 
   
-end
+  end
 end
